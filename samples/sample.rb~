@@ -1,0 +1,15 @@
+
+
+class Database
+
+  def run_query(query)
+
+  end
+
+end
+
+class UserDao
+
+
+
+end
