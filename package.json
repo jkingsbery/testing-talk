@@ -1,0 +1,7 @@
+{
+  "name": "testing-talk",
+  "version": "0.0.0",
+  "dependencies": {
+    "nerdshow": "~0.2.4"
+  }
+}
