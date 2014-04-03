@@ -1,4 +1,4 @@
-<div class="slide" style="">
+.<div class="slide" style="">
 
 # Third Step - Deploying
 
@@ -39,7 +39,7 @@ make all
 
 ## Required components
 
-* Automate start, stop (```supervisord, init.d```)
+* Automate start, stop (```supervisord```, ```init.d```)
 
 * Configuration changes
 
