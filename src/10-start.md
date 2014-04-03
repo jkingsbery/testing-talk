@@ -1,18 +1,18 @@
-.<div class="slide">
+<div class="slide" style="">
+# Talk Goal
 
-# My Title
-
-## My Subtitle
-
-### My Name
-
-#### <http://example.com/>
+## How is Industry different than school?
 
 .</div><div class="slide" style="">
 
-# My First Slide
+# My Background
 
- * Some Text
- * More Text [Link Title](http://example.com/)
+  * Macros in VBA
+  
+  * Start ups - Java
+
+  * Data Science at Yodle
+
+  * Erlang and Node.js at Dow Jones
 
 .</div>

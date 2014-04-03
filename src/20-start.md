@@ -1,18 +1,28 @@
-.<div class="slide">
+<div class="slide" style="">
 
-# My Title
+# First Step - Running Locally
 
-## My Subtitle
-
-### My Name
-
-#### <http://example.com/>
-
+```bash
+git clone https://github.mycompany.com/our_project
+cd our_project
+cp ~/Downloads/some.properties etc/
+cp ~/Downloads/other.properties etc/
+emacs etc/some.properties
+...
+./run.sh
+```
 .</div><div class="slide" style="">
 
-# My First Slide
+# First Step - Running Software
 
- * Some Text
- * More Text [Link Title](http://example.com/)
+```bash
+git clone ...
+rails server
+```
+
+```bash
+git clone ... 
+./run.sh
+```
 
 .</div>

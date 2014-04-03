@@ -1,14 +1,15 @@
 .<div class="slide">
 
-# Testing and Deploying Web Software
+# Testing and Deployment
 
-## Automated Testing and Continuous Deployment
+## What I wished I knew when I started
 
 ### James Kingsbery
 
 #### <http://kingsbery.net/>
 
 .</div><div class="slide" style="">
+# Talk Goal
 
 ## How is Industry different than school?
 
@@ -55,7 +56,7 @@ git clone ...
 
 # Second Step - Testing
 
-Before every commit, check...
+## Before every commit, check...
 
 * Test User Registration
 
@@ -67,7 +68,7 @@ Before every commit, check...
 
   ....
 
-* Teset use case #35
+* Test use case #35
 
 .</div><div class="slide" style="">
 
@@ -79,12 +80,9 @@ make test
 
 .</div><div class="slide" style="">
 
-# Getting to the second step
-
-## Good test names
+# Good test names
 
 ```java
-
 @Test
 public void userTest(){
     User user = new User();
@@ -103,7 +101,6 @@ public void userTest(){
 # Good test names
 
 ```java
-
 @Test
 public void if_all_info_provided_registration_should_succeed(){
     User user = new User();
@@ -197,6 +194,9 @@ From your machine:
 ```bash
 make all
 scp bin/* qa.mycompany.net:/opt/bin/
+scp dependencies/* qa.mycompany.net:/opt/bin/
+scp beta.properties qa.mycompany.net:/opt/bin/
+scp apache.conf qa.mycompany.net:....
 mysql < database-changes.sql
 
 ```
@@ -226,7 +226,7 @@ make all
 
 ## Required components
 
-* Automate start, stop
+* Automate start, stop (```supervisord, init.d```)
 
 * Configuration changes
 
@@ -247,9 +247,5 @@ make all
 * Exception: System state that gets backed up
 
 * Other Exception: System dependencies
-
-.</div><div class="slide" style="">
-
-## Separate "What" and "How"
 
 .</div>

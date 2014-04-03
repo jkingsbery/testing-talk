@@ -1,5 +1,5 @@
 {
-    "title": "Deploying Web Software",
+    "title": "Testing and Deployment",
     "author": "Jamie Kingsbery",
     "company": "",
     "footer_left": "--no footer--",
@@ -9,7 +9,9 @@
     "source": [
         "00-start.md",
         "10-start.md",
-        "20-start.md"
+        "20-start.md",
+        "30-start.md",
+        "40-start.md"
     ],
     "sourceEncoding": "utf8",
     "template": "s5",
