@@ -11,7 +11,8 @@
         "10-start.md",
         "20-start.md",
         "30-start.md",
-        "40-start.md"
+        "40-start.md",
+	"50-end.md"
     ],
     "sourceEncoding": "utf8",
     "template": "s5",
