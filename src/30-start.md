@@ -1,4 +1,4 @@
-<div class="slide" style="">
+.<div class="slide" style="">
 
 # Second Step - Testing
 
@@ -128,6 +128,6 @@ dao.fetch_by_id("42")
 
 # Continuous Integration Servers
 
-TODO
-
+<img src="http://jenkins-ci.org/sites/default/files/jenkins_logo.png" class="scaled-centered">
+<img src="http://docs.travis-ci.com/images/travis-mascot-200px.png" class="scaled-centered">
 .</div>

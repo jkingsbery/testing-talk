@@ -1,4 +1,4 @@
-<div class="slide" style="">
+.<div class="slide" style="">
 # Talk Goal
 
 ## How is Industry different than school?

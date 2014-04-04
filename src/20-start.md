@@ -1,4 +1,4 @@
-<div class="slide" style="">
+.<div class="slide" style="">
 
 # First Step - Running Locally
 
